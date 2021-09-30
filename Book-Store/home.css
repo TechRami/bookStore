@@ -1,0 +1,22 @@
+/*               IMPORTS              */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*                                    */
+
+/* Applying our font on the whole page text styles */
+#page{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* We override the dropdown-menu margin in order to increase the menu width. so we can make our list items horizontal */
+.dropdown-menu {
+    margin-right: -500px;
+}
+.dropdown-menu > ul {
+    display: inline-block;
+} 
+/* */
+
+
